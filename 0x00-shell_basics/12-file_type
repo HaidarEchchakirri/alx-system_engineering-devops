@@ -1,2 +1,8 @@
 #!/bin/bash
-file /tmp/iamafile
+file_path="/tmp/iamafile"
+if [ -e "$file_path" ]; then
+    file_type=$(file "$file_path")
+    echo "$file_type"
+else
+    echo "The file iamafile does not exist in the /tmp directory."
+fi
