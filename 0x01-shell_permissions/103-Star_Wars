@@ -1,2 +1,2 @@
 #!/bin/bash
-curl -s https://raw.githubusercontent.com/tonyblundell/star-wars-episode-iv-ascii/master/episode-iv.txt
+telnet towel.blinkenlights.nl
